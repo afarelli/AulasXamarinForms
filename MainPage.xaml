@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+              xmlns:local="clr-namespace:exemplo1"
+              x:Class="exemplo1.MainPage">
+
+  <ScrollView Orientation="Vertical">
+    <StackLayout Padding="30" Spacing="30"
+    BackgroundColor="#8E7AEF">
+      <Image Source="unnamed.jpg"/>
+      <Label Text="Nota 1:" />
+      <Entry Placeholder="Nota" x:Name="txt_nota1"/>
+      <Label Text="Nota 2:" />
+      <Entry Placeholder="Nota" x:Name="txt_nota2"/>
+      <Label Text="Nota 3:" />
+      <Entry Placeholder="Nota" x:Name="txt_nota3"/>
+      <Button Text="Calcular" x:Name="btn_calcular"/>
+      <Label x:Name="lbl_media" />
+    </StackLayout>
+  </ScrollView>
+  
+</ContentPage>
